@@ -1,0 +1,236 @@
+/*this is a 1 page*/
+body {
+    background-color: #f2c7d0;
+    color: #3a3033;
+    font-family: Georgia, serif;
+}
+
+h1 {
+    font-family: Algerian, serif;
+    color: #b85c78;
+    text-align: center;
+    font-size: 48px;
+}
+h2 {
+    font-family: Algerian, serif;
+    color: #080103;
+    text-align: center;
+    font-size: 36px;
+}
+.profile-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+/*this is a 2 page*/
+body {
+    background-color: #f2c7d0;
+    color: #3a3033;
+    font-family: Georgia, serif;
+}
+h1 {
+    font-family: Algerian, serif;
+    color: #b85c78;
+    text-align: center;
+    font-size: 48px;
+}
+p {
+    font-family: Georgia, serif;
+    color: #3f0114;
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 20px;
+}
+/*this is a 3 page*/
+body {
+    background-color: #f2c7d0;
+    color: #3a3033;
+    font-family: Georgia, serif;
+}
+h1 {
+    font-family: Algerian, serif;
+    color: #b85c78;
+    text-align: center;
+    font-size: 48px;
+}
+pre {
+    font-family: Georgia, serif;
+    color: #3f0114;
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 20px;
+}
+/*this is a 4 page*/
+body {
+    background-color: #f2c7d0;
+    color: #3a3033;
+    font-family: Georgia, serif;
+}
+h1 {
+    font-family: Algerian, serif;
+    color: #b85c78;
+    text-align: center;
+    font-size: 48px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px;
+}
+li {
+    font-family: Georgia, serif;
+    color: #3f0114;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+/*this is a 5 page*/
+body {
+    background-color: #f2c7d0;
+    color: #3a3033;
+    font-family: Georgia, serif;
+}
+h1 {
+    font-family: Algerian, serif;
+    color: #b85c78;
+    text-align: center;
+    font-size: 48px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px;
+}
+li {
+    font-family: Georgia, serif;
+    color: #3f0114;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+/*this is a 6 page*/
+body {
+    background-color: #f2c7d0;
+    color: #3a3033;
+    font-family: Georgia, serif;
+}
+h1 {
+    font-family: Algerian, serif;
+    color: #b85c78;
+    text-align: center;
+    font-size: 48px;
+}
+/* Mobile responsive design */
+@media (max-width: 600px) {
+
+    body {
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+}
+/*box*/
+body {
+    background-color: pink;
+}
+
+.box {
+    background-color: rgb(241, 212, 223);
+    width: 80%;
+    margin: 50px auto;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+.box img {
+    display: block;
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    margin: 20px auto;
+    border-radius: 50%;
+}
+/*box 2nd page*/
+.next-button {
+    display: block;
+    width: fit-content;
+    margin: 30px auto 0;
+    padding: 12px 25px;
+    background-color: pink;
+    color: black;
+    text-decoration: none;
+    border-radius: 25px;
+}
+/*box 3rd page*/
+.next-button {
+    display: block;
+    width: fit-content;
+    margin: 30px auto 0;
+    padding: 12px 25px;
+    background-color: pink;
+    color: black;
+    text-decoration: none;
+    border-radius: 25px;
+}
+/*box 4th page*/
+.next-button {
+    display: block;
+    width: fit-content;
+    margin: 30px auto 0;
+    padding: 12px 25px;
+    background-color: pink;
+    color: black;
+    text-decoration: none;
+    border-radius: 25px;
+}
+/*box 5th page*/
+.next-button {
+    display: block;
+    width: fit-content;
+    margin: 30px auto 0;
+    padding: 12px 25px;
+    background-color: pink;
+    color: black;
+    text-decoration: none;
+    border-radius: 25px;
+}
+/*box 6th page*/
+.next-button {
+    display: block;
+    width: fit-content;
+    margin: 30px auto 0;
+    padding: 12px 25px;
+    background-color: pink;
+    color: black;
+    text-decoration: none;
+    border-radius: 25px;
+}
+/*thanks box*/
+.thanks {
+    width: 50%;
+    margin: 40px auto 0;
+    padding: 20px;
+    background-color: #fff0f5;
+    border: 2px solid pink;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.thanks h2 {
+    margin-top: 0;
+}
